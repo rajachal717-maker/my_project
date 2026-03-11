@@ -1,3 +1,9 @@
+import sys
+import io
+
+# This forces the terminal to handle emojis correctly
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 import os
 import re
 from datetime import datetime

@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .vscode/
 secret_test.txt
+my_team.json
+pokedex.html
+security_report.html
